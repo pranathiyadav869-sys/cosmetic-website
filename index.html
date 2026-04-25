@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Bliss - Online Store</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Beauty Bliss</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h2>Glow Like Never Before ✨</h2>
+        <p>Discover premium beauty products curated just for you!</p>
+
+        <button class="shop-now" onclick="showBrands()">Shop Now</button>
+
+        <!-- Brand Options -->
+        <div id="brands" class="brands hidden">
+            <a href="https://www.lakmeindia.com" target="_blank">Lakme</a>
+            <a href="https://www.dior.com" target="_blank">Dior</a>
+            <a href="https://in.sugarcosmetics.com" target="_blank">Sugar</a>
+            <a href="https://www.maybelline.co.in" target="_blank">Maybelline</a>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="products">
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa" alt="Lipstick">
+            <h3>Luxury Lipstick</h3>
+            <p class="price">₹1,599</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348" alt="Foundation">
+            <h3>Flawless Foundation</h3>
+            <p class="price">₹2,499</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796" alt="Eyeshadow">
+            <h3>Glam Eyeshadow</h3>
+            <p class="price">₹1,999</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Beauty Bliss | All rights reserved.</p>
+    </footer>
+
+    <!-- JS -->
+    <script>
+        function showBrands() {
+            document.getElementById("brands").classList.toggle("hidden");
+        }
+    </script>
+
+</body>
+</html>

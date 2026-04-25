@@ -1,0 +1,125 @@
+/* Global */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #f3e6ff, #d9b3ff);
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #800080;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    background: #d896ff;
+    padding: 60px 20px;
+    color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.shop-now {
+    background: white;
+    color: #800080;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Brand Buttons */
+.brands {
+    margin-top: 15px;
+}
+
+.brands a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: white;
+    color: #800080;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.brands a:hover {
+    background: #800080;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Products Row */
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+/* Product Card */
+.product {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.price {
+    font-weight: bold;
+}
+
+/* Buttons */
+button {
+    background: #800080;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #800080;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
