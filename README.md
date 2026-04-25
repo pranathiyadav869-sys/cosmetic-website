@@ -28,10 +28,11 @@ This project focuses on **front-end development**, UI design, and basic interact
 
 ## 🖥️ Demo Preview
 
-(Add your screenshot here)
+
 
 ```md
-![Website Preview](<img width="2856" height="1546" alt="image" src="https://github.com/user-attachments/assets/b38367ee-3c6c-490c-b147-b6823f3d694a" />
+![Website Preview](<img width="2856" height="1546" alt="Image" src="https://github.com/user-attachments/assets/229e5ca7-84bd-4528-abff-6aad50cf6816" />
+
 )
 ```
 
